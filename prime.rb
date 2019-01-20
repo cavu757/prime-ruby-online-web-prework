@@ -21,8 +21,13 @@ def prime?(n)
         puts "its divisible by #{counter_up}"
         counter2 += 1 
         counter_up += 1
+<<<<<<< HEAD
       elsif counter == counter_up
         break
+=======
+#      elsif counter == counter_up
+#        break
+>>>>>>> c42da780aa13be3704a2cc52e2e79ffc35a1d1dd
       else  
         counter -= 1
         counter_up += 1
